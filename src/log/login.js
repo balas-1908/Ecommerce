@@ -15,7 +15,7 @@ function Login() {
 
     if (email === "suriya@gmail.com" && password === "000000") {
       localStorage.setItem("loggedIn", "true");
-      navigate("/");
+      navigate("/prod");
     } else {
       setError("Invalid email or password");
     }
@@ -46,7 +46,7 @@ function Login() {
               type="email"
               name="email"
               className="form-control"
-              placeholder="admin@gmail.com"
+              placeholder="suriya@gmail.com"
               required
             />
           </div>
@@ -59,7 +59,7 @@ function Login() {
                 type={showPassword ? "text" : "password"}
                 name="password"
                 className="form-control"
-                placeholder="123456"
+                placeholder="000000"
                 required
               />
               <button

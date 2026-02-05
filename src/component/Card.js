@@ -34,7 +34,7 @@ function ProductCard({ product }) {
 
   return (
     <div className="card">
-      <img src={product.image} className="card-img-top" />
+      <img src={product.image} alt={product.title} className="card-img-top" />
 
       <div className="card-body">
         <h5>{product.name}</h5>

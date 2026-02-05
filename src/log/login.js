@@ -15,7 +15,7 @@ function Login() {
 
     if (email === "suriya@gmail.com" && password === "000000") {
       localStorage.setItem("loggedIn", "true");
-      navigate("/prod");
+      navigate("/home");
     } else {
       setError("Invalid email or password");
     }

@@ -46,7 +46,7 @@ function Login() {
               type="email"
               name="email"
               className="form-control"
-              placeholder="suriya@gmail.com"
+              placeholder="admin@gmail.com"
               required
             />
           </div>

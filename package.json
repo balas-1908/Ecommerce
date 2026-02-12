@@ -1,25 +1,10 @@
-Here is your fully corrected and production-safe package.json for Vercel deployment using Create React App (react-scripts 5).
-
-This version:
-
-✅ Uses React 18 (stable + compatible)
-
-✅ Uses correct React Router version
-
-✅ Has valid JSON
-
-✅ Works on Vercel
-
-✅ No syntax errors
-
-✅ Updated package.json
-
-Copy and replace your entire file with this:
-
 {
   "name": "ecom",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",

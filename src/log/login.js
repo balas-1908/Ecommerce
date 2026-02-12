@@ -13,7 +13,7 @@ function Login() {
     const email = e.target.email.value;
     const password = e.target.password.value;
 
-    if (email === "suriya@gmail.com" && password === "000000") {
+    if (email === "admin@gmail.com" && password === "000000") {
       localStorage.setItem("loggedIn", "true");
       navigate("/home");
     } else {

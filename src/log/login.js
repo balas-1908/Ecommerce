@@ -79,7 +79,7 @@ function Login() {
 
         <p className="text-center text-muted mt-3" style={{ fontSize: "13px" }}>
           Demo login:<br />
-          admin@gmail.com / 123456
+          admin@gmail.com / 000000
         </p>
       </div>
     </div>
